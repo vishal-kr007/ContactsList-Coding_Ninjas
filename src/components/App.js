@@ -18,6 +18,8 @@ export default function App(props) {
   const addContact = (e) => {
     e.preventDefault();
     addClick(name, phone);
+    setName('')
+    setPhone('')
   };
 
   // Render a form with inputs for the name and phone number of the new contact
