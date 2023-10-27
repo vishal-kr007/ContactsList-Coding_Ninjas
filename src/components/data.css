@@ -1,0 +1,68 @@
+/* CSS styles for contact data and its container */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #f1cc7c;
+    background-color: #141E46;
+}
+
+input[type=submit]{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #f1cc7c;
+    background-color: #141E46;
+}
+
+input{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.data {
+    text-align: center;
+    background-color: #FFF5E0;
+    height: 100vh;
+  }
+
+  .contact-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .contact-data {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    min-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1cc7c;
+    color: #141E46;
+    border-radius: 15px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  /* CSS styles for contact data icons */
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .icons:hover {
+    cursor: pointer;
+  }

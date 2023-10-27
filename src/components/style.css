@@ -1,0 +1,60 @@
+/* Style the whole app container to center the contents */
+.App {
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+  }
+
+  button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #f1cc7c;
+    background-color: #141E46;
+}
+  
+  /* Style the form container with padding, background color, and border radius */
+  .form-div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6969;
+    border-radius: 25px;
+  }
+  
+  /* Style the name, contact, and submit elements to display as flex containers */
+  .name,
+  .contact,
+  .submit {
+    display: flex;
+  }
+  
+  /* Style the name and contact input fields with border, padding, and border radius */
+  .name input,
+  .contact input {
+    border: none;
+    padding: 2px;
+    border-radius: 3px;
+  }
+  
+  /* Style the label to have a width and white color */
+  label {
+    width: 80px;
+    color: #141E46;
+  }
+  
+  /* Media query to adjust the layout of elements on screens with max width of 500px */
+  @media screen and (max-width: 500px) {
+    .name,
+    .contact,
+    .submit {
+      display: flex;
+      flex-direction: column;
+    }
+    .name input,
+    .contact input {
+      width: 96%;
+    }
+  }
