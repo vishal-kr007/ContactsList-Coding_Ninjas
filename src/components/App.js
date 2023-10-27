@@ -34,6 +34,7 @@ export default function App(props) {
             id="contact-name"
             type="text"
             required
+            value={name}
           />
         </div>
 
@@ -43,6 +44,7 @@ export default function App(props) {
             onChange={(event) => setPhone(event.target.value)}
             id="contact"
             type="number"
+            value={phone}
             required
           />
         </div>
